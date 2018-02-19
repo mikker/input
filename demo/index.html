@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <title>input demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/input.css">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@latest/css/tachyons.min.css">
+
+    <style>
+      pre { background: #f1f1f1; padding: .25rem .5rem; }
+    </style>
+  </head>
+  <body class='sans-serif pa4 lh-copy'>
+    <p><input type='text' class='input' value='Plain text input' autofocus /> Text</p>
+    <p><input type='text' class='input' /> (empty)</p>
+    <p><input type='text' class='input' value='No touching!' disabled /> (disabled)</p>
+    <p><input type='text' class='input' placeholder='Placeholder' /></p>
+    <p><input type='email' class='input' value='person@example.com' format='.+@.+' /> Email</p>
+    <p><input type='email' class='input validate' value='not an email' format='.+@.+' /> Invalid email</p>
+    <p><input type='email' class='input invalid' value='not an email' /> Invalid email again</p>
+    <p><input type='number' class='input' value='666' /> Number</p>
+    <p><input type='search' class='input' value='Plain search input' /> Search</p>
+    <p>
+      <select class='input'>
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option>Option 3</option>
+        <option>Option 4</option>
+      </select>
+      Select
+    </p>
+
+    <p><input type='text' class='input bg-purple yellow b--pink shadow-1 grow' value='Custom text input' autofocus /> Text</p>
+  </body>
+</html>
