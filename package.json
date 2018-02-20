@@ -1,6 +1,6 @@
 {
   "name": "@mikker/input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An input for use with Tachyons",
   "style": "css/input.min.css",
   "main": "css/input.css",
