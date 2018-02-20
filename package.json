@@ -13,7 +13,7 @@
     "build:src": "postcss src/input.css -o css/input.css -m",
     "build:minify": "postcss src/input.css --use cssnano -o css/input.min.css -m",
     "build": "npm run build:src && npm run build:minify",
-    "dev": "npm run build -- -w",
+    "dev": "npm run build:src -- -w",
     "demo": "live-server --ignore=node_modules"
   },
   "author": "mikker",

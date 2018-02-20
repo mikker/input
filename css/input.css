@@ -2,14 +2,15 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  background: #fff;
+  border-radius: .25rem;
   border: 2px solid #999;
   border: .125rem solid #999;
-  padding: 8px;
-  padding: .5rem;
-  border-radius: .25rem;
+  color: #111;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: inherit;
-  color: inherit;
+  padding: 8px;
+  padding: .5rem;
 }
 
 .input::-webkit-input-placeholder {
@@ -29,8 +30,8 @@
 }
 
 .input:focus {
-  outline: none;
   border-color: #408BC9;
+  outline: none;
 }
 
 .input[disabled],
@@ -45,8 +46,8 @@
 }
 
 select.input {
-  padding-right: 26px;
-  background-repeat: no-repeat;
-  background-position: 90% 50%;
   background-image: url(data:image/gif;base64,R0lGODlhDwAUAIABAAAAAP///yH5BAEAAAEALAAAAAAPABQAAAIXjI+py+0Po5wH2HsXzmw//lHiSJZmUAAAOw==);
+  background-position: 90% 50%;
+  background-repeat: no-repeat;
+  padding-right: 26px;
 }
